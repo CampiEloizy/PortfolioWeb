@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content = "Eloizy Campi"/>
+    <meta name="description" content="Portfolio com registros individuais"/>
+    <meta name="keywords" content="Projetos, cursos, hobbies"/>
+    <title>Portfólio Eloizy</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+    <script src="javaS.js" language="Javascript"></script>
+<body>
+    <div class="header" id="barra-nav">
+        <img class="cabecalho-img" src="imagens/nomepersonalizado.png" alt="Meu nome personalizado">
+
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-menu-itens" href="portfolio.html" >Portfólio</a>
+            <a class="cabecalho-menu-itens" href="index.html" >Sobre mim</a>
+            <a class="cabecalho-menu-itens" href="contateme.html" >Contate-me</a>
+        </nav>
+    </div>
+
+    <div class="main" id="conteudo">
+        <section class="conteudo-prin">
+            <img class="conteudo-prin-img" src="imagens/projeto.jpeg" alt="Fotos do projeto">
+
+            <div class="conteudo-escrito" id="descricoes">
+                <h1 class="conteudo-escrito-titulo">Portfólio</h1>
+                <h2 class="conteudo-escrito-subtitulo"><strong>Projeto Simulação Robótica:</strong> no IFRO, eu participo de um projeto de extensão chamado Simulação Robótica, 
+                    onde eu e demais alunos somos orientados pelo professor e orientador Maigon Pontuschka no desenvolvimento de um braço robótico. 
+                    Toda semana realizamos uma reunião presencial e uma online com as outras equipes que elaboram diferentes áreas dentro do projeto.
+                </h2>
+            </div>
+        </section>
+
+        <section class="conteudo-secundario">
+            <div class="conteudo-escrito-secundario" id="descricoes-sec">
+                <h1 class="conteudo-escrito-secundario-titulo">Curso Four Models</h1>
+                <h2 class="conteudo-escrito-secundario-subtitulo">Durante a pandemia, procurando diferentes formas de me manter produtiva e explorar áreas de meu interesse, 
+                    realizei um curso voltado para atuação mas que também englobava o desenvolvimento para as esferas de Modelo e Influencer Digital. 
+                    Nele, eu decorava monólogos, gravava vídeos atuando, tirava fotos explorando diferentes posições e ângulos, 
+                    além de aprender um pouco sobre como ter mais engajamento nas redes sociais.
+                </h2>
+            </div>
+
+            <img class="conteudo-secundario-img" src="imagens/curso.jpg" alt="Fotos do curso">
+        </section>
+
+        <section class="conteudo-terciario">
+            <img class="conteudo-terciario-img" src="imagens/redacao.jpg" alt="Fotos de redações minhas">
+
+            <div class="conteudo-escrito-terciario" id="descricoes-ter">
+                <h1 class="conteudo-escrito-terciario-titulo">Redações</h1>
+                <h2 class="conteudo-escrito-terciario-subtitulo">Apesar de não manter a mesma frequência de prática de um tempo atrás, a partir da oitava série onde comecei 
+                    a produzir redações e artigos de opinião, fui evoluindo e obtendo cada vez mais facilidade de redigir textos.
+                </h2>
+            </div>
+        </section>
+
+        <section class="conteudo-quartenario">
+            <div class="conteudo-escrito-quartenario" id="descricoes-quar">
+                <h1 class="conteudo-escrito-quartenario-titulo">Hobbies</h1>
+                <h2 class="conteudo-escrito-quartenario-subtitulo"><strong>Tranças Embutidas:</strong>  Desde pequena sempre gostei de mexer em cabelos, frequentemente fazia tranças em tias/primas. 
+                    Ao longo do tempo passei a ver tutoriais e me dedicar a aprender outros tipos de tranças além da embutida, dessa forma ia praticando em familiares e amigas próximas. 
+                    Atualmente faço tranças de diferentes formas e eventualmente isso me gera uma renda extra quando algumas pessoas querem penteados para ir em festas e ocasiões especiais.
+                </h2>
+            </div>
+
+            <img class="conteudo-quartenario-img" src="imagens/trança.jpg" alt="Fotos de tranças feitas por mim">
+        </section>
+
+        <section class="conteudo-quinario">
+            <img class="conteudo-quinario-img" src="imagens/doce.jpg" onMouseOut="mostravazio(this);"
+                                               src="imagens/doce2.jpg" onMouseOver="mostracheio(this);" alt="Fotos de doces feitos por mim">
+
+            <div class="conteudo-escrito-quinario" id="descricoes-quin">
+                <h1 class="conteudo-escrito-quinario-titulo">Cozinhar</h1>
+                <h2 class="conteudo-escrito-quinario-subtitulo">Como precisei passar a cozinhar dentro de casa durante a quarentena, aprendi muitas receitas novas e algumas técnicas na cozinha.
+                    Descobri uma paixão por realizar diferentes receitas, inclusive doces. Através disso, hoje eu faço brigadeiros e palha italiana para vender não somente na escola como também 
+                    para amigos na minha cidade.    
+                         ➼Passe o mouse por cima da imagem ao lado para ver mais doces feitos por mim.
+                </h2>
+            </div>
+        </section>
+
+        <section class="conteudo-senario">
+            <h3 class="conteudo-senario-titulo">O que achou dos meus projetos?</h3>
+            <p class="conteudo-senario-paragrafo">Entre em contato comigo para <strong>mais informações!</strong></p>
+        </section>
+
+        <section class="formulario">
+            <form name="formulario">
+
+                Nome: <div class="form-caixa-texto-1"> 
+                         <input type="text" name="nome"><br>
+                      </div>
+
+                E-mail: <div class="form-caixa-texto-2">
+                         <input type="text" name="email"><br>
+                        </div>
+
+                <button class="cybr-btn" value="salvar" onClick="Aviso();">
+                    Salvar<span aria-hidden>_</span>
+                    <span aria-hidden class="cybr-btn__glitch">Salvar</span>
+                  </button>
+            </form>
+        </section>
+    </div>
+
+    <div class="footer" id="rodape">
+        <h1 class="rodape-sobrenome">CAMPI 2004</h1>
+    </div>
+</body>
+</html>
